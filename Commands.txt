@@ -1,0 +1,35 @@
+To open the console, make sure you are on the Dev build. Press F4 to toggle the command window, ENTER to enter a command, 
+and up arrow to copy previously entered command
+
+godmode (toggles godmode)
+
+hud (toggles hud)
+
+blood clear (clears all blood on the map)
+blood fill (fills the entire map with blood)
+
+ai remove (deletes all enemies)
+ai kill (kills all enemies by a randomized method)
+
+level points <number> (changes the amount of soldier points for the battle manager)
+level time <number> (changes the amount of time left on the level)
+
+gun <gun name> <boolean> (set's the specified gun as active or unactive, which determins if new soldiers can spawn with them)
+
+progression flush (resets all game progression)
+progression level <number> (sets the unlocked levels to the number specified)
+
+
+booleans:
+	"true"
+	"false"
+
+gun names: (using an unspecified gun name will cause a crash for now)
+	"pistol"
+	"rifle"
+	"laser_gun"
+	"sniper"
+	"submachine_gun"
+	"laser_canon"
+	"shotgun"
+	"laser_shotgun"
